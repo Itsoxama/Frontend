@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@100;300;400;500;700&display=swap');
+.register{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.register2{
+    width: 100vw;
+    height: 100vh;
+    clip-path: polygon(0 0, 100% 0, 100% 38%, 0 75%); 
+    background-color: rgb(142, 93, 234);
+    display: flex;
+
+    
+    align-items: center;
+    justify-content: center;
+}
+.parin>select{
+    
+    width: 100%;
+    height: 30px;
+    border: none;
+    padding: 2px;
+    border-bottom: 1px solid gray;
+    font-family: 'Roboto', sans-serif!important;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(98, 95, 95);
+}
+.subregister{
+    border: 2px solid rgb(218, 204, 247);
+    position: absolute;
+    z-index: 99;
+    background-color: white;
+    border-radius: 30px;
+    padding: 25px;
+    width: 60%;
+    min-height: 600px;
+}
+.selecttype{
+    display: flex;
+    height: 35px;
+    width: 250px;
+}
+.sele{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.rad{
+    
+    border-radius: 50px 0px 0px 50px;
+}
+.rad2{
+    
+    border-radius: 0px 50px 50px 0px;
+}
+.purp{
+    width: 50%;
+    border: none;
+background-color: rgb(227, 216, 247);
+color: rgb(142, 93, 234);
+border: 2px solid rgb(142, 93, 234);
+}
+.parenp{
+    width: 100%;
+display: flex;
+justify-content: space-between;
+margin-top: 50px;
+
+}
+.parin{
+    width: 48%;
+    
+}
+.parin>input::placeholder{
+    font-size: 14px;
+    color: rgb(189, 187, 187);
+}
+.parin>input:focus{
+
+    border-bottom: 2px solid rgb(180, 147, 241);
+}
+
+.groo{
+    
+    width: 50%;
+background-color: rgb(238, 236, 236);
+color: rgb(119, 118, 120);
+border: 3px solid rgb(147, 146, 149);
+    border: none;
+}
+.parin>input{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid rgb(158, 158, 158);
+}
+.subregister{
+    height: max-content;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.subregister>div{
+    height: max-content;
+}
+
+.parin>h3{
+    
+    font-family: 'Roboto', sans-serif!important;
+    font-size: 14px;
+
+    font-weight: 500;
+    color: rgb(136, 136, 136);
+}
+.sele>h1{
+    
+    font-family: 'Roboto', sans-serif!important;
+    font-size: 20px;
+
+    font-weight: 500;
+    color: rgb(142, 93, 234);
+}
+.subreg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cfgt{
+font-size: 40px;
+color: white;
+}
+.circltick{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px!important;
+    background-color: rgb(122, 36, 242);
+    border-radius: 60px;
+    border: 10px solid rgb(229, 219, 250);
+}
+.loog{
+
+    border: none;
+    width: 100px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 35px;
+    margin-top: 20px;
+font-weight: 500;
+    border-radius: 5px!important;
+    background-color: rgb(122, 36, 242)!important;
+}
+.buttx>button{
+    
+    border: none;
+    width: 100px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 35px;
+    margin-top: 20px;
+font-weight: 500;
+    border-radius: 5px!important;
+    background-color: rgb(122, 36, 242)!important;
+}
+.buttx{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    margin-left: -10px;
+}
+.subregister>h4{
+    
+    font-family: 'Roboto', sans-serif!important;
+    font-size: 14px;
+
+    font-weight: 500;
+    color: rgb(137, 136, 139);
+}
+.subreg>h1{
+    
+    font-family: 'Roboto', sans-serif!important;
+    font-size: 18px;
+
+    font-weight: 500;
+    margin-top: 20px;
+    color: rgb(137, 136, 139);
+}
+.register{
+    overflow: s;
+
+}
+@media only screen and (max-width: 900px) {
+    .register{
+        align-items: flex-start!important;
+    }
+    .subregister{
+        margin-top: 110px!important;
+    }
+    .subregister>h4{
+        margin-top: 20px!important;
+    }
+   .parin{
+    margin-top: 20px!important;
+   }
+    .parenp{
+        margin-top: 0px!important;
+    }
+    .subregister{
+        width: 95%!important;
+    }
+    .parin{
+        width: 100%!important;
+    }
+.subregister>div{
+    flex-direction: column!important;
+}
+
+}

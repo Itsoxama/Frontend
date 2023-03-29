@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+*::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+.sublogin>h1{
+    margin-top: 25px;
+    font-family: 'Roboto', sans-serif!important;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(100 93 213);
+}
+
+.sublogin>h2{
+    width: 70%;
+    margin-top: 25px;
+    font-family: 'Roboto', sans-serif!important;
+    font-size: 14px;
+    color: rgb(145, 142, 142);
+    font-weight: 400;
+}
+.sublogin>h3{
+    cursor: pointer;
+}
+.sublogin>button{
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Roboto', sans-serif!important;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    margin-top: 5px;
+    background-color: rgb(100 93 213);
+
+    width: 70%;
+}
+.sublogin>input{
+    width: 70%;
+    border-bottom: 2px solid rgb(100 93 213)!important;
+    border: none;
+}
+.login{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(100 93 213);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sublogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    border-radius: 20px;
+    min-height: 500px;
+    background-color: white;
+
+}
+.sublogin{
+    padding-top: 35px;
+}
+.sublogin>img{
+    width: 50px;
+}
